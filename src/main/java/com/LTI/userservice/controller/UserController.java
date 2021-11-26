@@ -28,7 +28,7 @@ public class UserController {
 //	RestTemplate restTemplate;
 	
 	@GetMapping("")
-	public string getdata(){
+	public String getdata(){
 		return "The User service is running successfully";
 	}
 	
