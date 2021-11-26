@@ -27,6 +27,11 @@ public class UserController {
 //	@Autowired
 //	RestTemplate restTemplate;
 	
+	@GetMapping("")
+	public string getdata(){
+		return "The User service is running successfully";
+	}
+	
 	@PostMapping(value="/user")
 	public void addUser(@RequestBody User user) {
 		Service.addUser(user);
