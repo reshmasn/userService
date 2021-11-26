@@ -29,7 +29,7 @@ public class UserController {
 	
 	@GetMapping("")
 	public String getdata(){
-		return "The User service is running successfully";
+		return "The User application is running successfully";
 	}
 	
 	@PostMapping(value="/user")
